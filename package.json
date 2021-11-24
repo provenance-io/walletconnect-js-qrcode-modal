@@ -1,6 +1,6 @@
 {
   "name": "@provenanceio/walletconnect-js-qrcode-modal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "sideEffects": false,
   "main": "lib/index.js",
@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/provenance-io/walletconnect-js-qrcode-modal#readme",
   "dependencies": {
-    "@provenanceio/walletconnect-js": "0.1.15",
     "styled-components": "^5.3.3",
     "prop-types": "^15.7.2"
   },
