@@ -1,6 +1,6 @@
 {
   "name": "@provenanceio/walletconnect-js-qrcode-modal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "sideEffects": false,
   "main": "lib/index.js",
@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/provenance-io/walletconnect-js-qrcode-modal#readme",
   "dependencies": {
-    "@provenanceio/walletconnect-js": "0.1.15"
+    "@provenanceio/walletconnect-js": "0.1.15",
+    "styled-components": "^5.3.3",
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@babel/cli": "7.13.16",
@@ -51,10 +53,8 @@
     "eslint-plugin-react": "7.25.3",
     "eslint": "7.32.0",
     "prettier": "2.4.1",
-    "prop-types": "^15.7.2",
     "react-dom": "17.0.2",
-    "react": "17.0.2",
-    "styled-components": "^5.3.3"
+    "react": "17.0.2"
   },
   "scripts": {
     "clean": "rm -rf ./lib ./esm",

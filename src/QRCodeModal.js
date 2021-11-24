@@ -74,6 +74,11 @@ QRCodeModal.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node,
   title: PropTypes.string,
+  walletConnectService: PropTypes.shape({ showQRCode: PropTypes.func }).isRequired,
+  walletConnectState: PropTypes.shape({
+    showQRCodeModal: PropTypes.bool,
+    QRCode: PropTypes.string,
+  }).isRequired,
 };
 
 QRCodeModal.defaultProps = {
